@@ -1,0 +1,45 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="40" fill="#18211F"/>
+  <rect x="48" y="42" width="1104" height="636" rx="28" fill="#1E2926" stroke="#31443E" stroke-width="3"/>
+  <circle cx="100" cy="88" r="12" fill="#8DAEA8"/>
+  <circle cx="138" cy="88" r="12" fill="#D7A74A"/>
+  <circle cx="176" cy="88" r="12" fill="#CAD7D0"/>
+  <text x="220" y="98" fill="#F2F5F1" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Humanoid Walking Logic</text>
+  <text x="72" y="150" fill="#9FB5AF" font-family="Segoe UI, Arial, sans-serif" font-size="24">A simple view of how RL ideas connect to balance and gait updates.</text>
+
+  <rect x="100" y="230" width="230" height="110" rx="26" fill="#284139"/>
+  <text x="215" y="274" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">State Input</text>
+  <text x="215" y="308" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="22">Joint angles + IMU</text>
+
+  <rect x="484" y="186" width="232" height="110" rx="26" fill="#335F66"/>
+  <text x="600" y="230" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Policy</text>
+  <text x="600" y="264" text-anchor="middle" fill="#EAF1EE" font-family="Segoe UI, Arial, sans-serif" font-size="22">Choose next motion</text>
+
+  <rect x="868" y="230" width="232" height="110" rx="26" fill="#284139"/>
+  <text x="984" y="274" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Action</text>
+  <text x="984" y="308" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="22">Gait update</text>
+
+  <rect x="484" y="430" width="232" height="110" rx="26" fill="#2A3531"/>
+  <text x="600" y="474" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Reward</text>
+  <text x="600" y="508" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="22">Balance + step quality</text>
+
+  <rect x="100" y="538" width="290" height="96" rx="24" fill="#25312D"/>
+  <text x="245" y="580" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Goal</text>
+  <text x="245" y="610" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">More stable walking</text>
+
+  <rect x="810" y="538" width="290" height="96" rx="24" fill="#25312D"/>
+  <text x="955" y="580" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Robot Result</text>
+  <text x="955" y="610" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Smoother motion and posture</text>
+
+  <path d="M330 285H484" stroke="#8DAEA8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M716 285H868" stroke="#8DAEA8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M984 340V404H600" stroke="#D7A74A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M484 485H245V538" stroke="#D7A74A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M716 485H955V538" stroke="#D7A74A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <polygon points="474,277 492,285 474,293" fill="#8DAEA8"/>
+  <polygon points="858,277 876,285 858,293" fill="#8DAEA8"/>
+  <polygon points="592,394 600,412 608,394" fill="#D7A74A"/>
+  <polygon points="237,530 245,548 253,530" fill="#D7A74A"/>
+  <polygon points="947,530 955,548 963,530" fill="#D7A74A"/>
+</svg>

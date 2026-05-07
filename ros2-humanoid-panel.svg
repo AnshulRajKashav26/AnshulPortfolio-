@@ -1,0 +1,51 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="40" fill="#18211F"/>
+  <rect x="48" y="42" width="1104" height="636" rx="28" fill="#1F2A27" stroke="#31443E" stroke-width="3"/>
+  <circle cx="100" cy="88" r="12" fill="#8DAEA8"/>
+  <circle cx="138" cy="88" r="12" fill="#D7A74A"/>
+  <circle cx="176" cy="88" r="12" fill="#CAD7D0"/>
+  <text x="220" y="98" fill="#F2F5F1" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Humanoid ROS 2 Flow</text>
+  <text x="72" y="150" fill="#9FB5AF" font-family="Segoe UI, Arial, sans-serif" font-size="24">Sensors, control, and hardware links for the humanoid system.</text>
+
+  <rect x="96" y="236" width="190" height="92" rx="22" fill="#284139"/>
+  <text x="191" y="276" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">IMU Data</text>
+  <text x="191" y="306" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Balance feedback</text>
+
+  <rect x="96" y="390" width="190" height="92" rx="22" fill="#284139"/>
+  <text x="191" y="430" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Vision Input</text>
+  <text x="191" y="460" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Scene tracking</text>
+
+  <rect x="96" y="544" width="190" height="92" rx="22" fill="#284139"/>
+  <text x="191" y="584" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Joint State</text>
+  <text x="191" y="614" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Servo position</text>
+
+  <rect x="420" y="316" width="320" height="150" rx="28" fill="#335F66"/>
+  <text x="580" y="372" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">ROS 2 Control</text>
+  <text x="580" y="412" text-anchor="middle" fill="#EAF1EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Topics, feedback, and coordination</text>
+
+  <rect x="876" y="244" width="220" height="98" rx="22" fill="#2A3531"/>
+  <text x="986" y="286" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Gait Manager</text>
+  <text x="986" y="316" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Step planning</text>
+
+  <rect x="876" y="390" width="220" height="98" rx="22" fill="#2A3531"/>
+  <text x="986" y="432" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Servo Bus</text>
+  <text x="986" y="462" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Motor commands</text>
+
+  <rect x="876" y="536" width="220" height="98" rx="22" fill="#2A3531"/>
+  <text x="986" y="578" text-anchor="middle" fill="#F5F7F4" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Balance Node</text>
+  <text x="986" y="608" text-anchor="middle" fill="#C7D4CE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Stability checks</text>
+
+  <path d="M286 282H420" stroke="#8DAEA8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M286 436H420" stroke="#8DAEA8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M286 590H420" stroke="#8DAEA8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 356H876" stroke="#D7A74A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 430H876" stroke="#D7A74A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 504H876" stroke="#D7A74A" stroke-width="8" stroke-linecap="round"/>
+
+  <polygon points="410,274 428,282 410,290" fill="#8DAEA8"/>
+  <polygon points="410,428 428,436 410,444" fill="#8DAEA8"/>
+  <polygon points="410,582 428,590 410,598" fill="#8DAEA8"/>
+  <polygon points="866,348 884,356 866,364" fill="#D7A74A"/>
+  <polygon points="866,422 884,430 866,438" fill="#D7A74A"/>
+  <polygon points="866,496 884,504 866,512" fill="#D7A74A"/>
+</svg>
